@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1280px;
+    
+    margin: auto;
+
+    box-shadow: 0 0 5px black;
+    background-color: #fff;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url('../fonts/MontserratAlternates-Bold.ttf');
+}
+
+h1 {
+    font-size: 64px;
+    font-family: MontserratBold;
+}
+
+h2 {
+    font-size: 48px;
+    font-family: MontserratBold;
+}
+
+h3 {
+    font-size: 32px;
+    font-family: MontserratBold;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.white {
+    color: white;
+}
+
+.brown {
+    color: #6f5546;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    
+    padding-top: 50px;
+}
+
+main .left {
+    display: flex;
+    flex-direction: column;
+    min-width: 550px;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+    width: 500px;
+
+    border-radius: 0 500px 500px 0;
+
+    background-color: #b38312;
+}
+
+.photo img {
+    width: 450px;
+    height: 450px;
+}
+
+.phone {
+    background-image: url('../images/6.png');
+}
+
+.email {
+    background-image: url('../images/7.png');
+}
+
+.instagram {
+    background-image: url('../images/8.png');
+}
+
+.home {
+    background-image: url('../images/9.png');
+}
+
+.world {
+    background-image: url('../images/10.png');
+}
+
+.tight {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    height: 100%;
+}
+
+.contacts ul {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+
+    list-style-type: none;
+
+    margin-top: 50px;
+}
+
+.contacts ul li {
+    width: 30px;
+    height: 30px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    cursor: pointer;
+}
+
+.contact_me {
+    margin-top: 50px;
+}
+
+.contact_me ul {
+    margin-left: 20px;
+}
+
+.contact_me ul li {
+    margin-top: 5px;
+}
+
+.education {
+    margin-top: 50px;
+}
+
+.education ul {
+    list-style-type: none;
+}
+
+.education ul li {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 25px;
+}
+
+.education ul li img {
+    width: 20px;
+    height: 100px;
+}
+
+.education ul li article {
+    margin-left: 15px;
+}
+
+.left .under {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 50px;
+    margin-top: 50px;
+
+    background-color: #b38312;
+    border-radius: 75px 75px 0 0;
+    height: 100%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.work_experience {
+    margin-top: 50px;
+}
+
+.work_experience section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+}
+
+.work_experience section ul {
+    margin-left: 28px;
+}
+
+.work_experience section img {
+    width: 15px;
+    height: 150px;
+}
+
+.work_experience section article {
+    margin-left: 15px;
+}
+
+.skills {
+    margin-top: 50px;
+}
+
+.skills section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 500px;
+}
+
+.skills ul {
+    margin-left: 25px;
+}
+
+.skills .mark{
+    list-style-type: none;
+
+    margin-left: 0px;
+}
+
+.skills .mark img {
+    width: 15px;
+    height: 15px;
+}
+
+.about {
+    height: 300px;
+    background-color: #b38312;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
